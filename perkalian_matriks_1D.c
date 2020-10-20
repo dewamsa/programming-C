@@ -1,8 +1,9 @@
 #include<stdio.h>
 
 int main(){
+    //Deklarasi
     int length_m= 0;
-    int max_length = 100;
+    int max_length = 100; //Batas panjang matriks
     float m1[max_length];
     float m2[max_length];
 
@@ -24,7 +25,7 @@ int main(){
     }
 
     for(int i=0;i<length_m;i++){
-        result += m1[i]*m2[i];
+        result += m1[i]*m2[i]; //Perkalian matriks
     }
 
     printf("Hasil perkalian matriks 1D: %f",result);
